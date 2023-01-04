@@ -6,8 +6,8 @@ Pinwrapper and pin-debouncer for micropython (Tested on Raspberry Pico)
 
 Possibilities
 -Interrupt based handling for when a button is clicked - double clicked - or held.
--seperate callbacks for onclicked, ondoubleclicked, omdoubleclickedcountdown
--adjustable countdown, countdowndelat per button
+-seperate callbacks for onclicked, ondoubleclicked, ondoubleclickedcountdown
+-adjustable countdown, countdowndelay per button
 -Monitoring of multiple buttons by one class
 -Countdown on button (for example 10 countdown's whereafter a callback function is executed)
 
