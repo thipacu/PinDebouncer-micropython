@@ -14,8 +14,11 @@ class PinButton(DebugableItem):
     onclicked=None
     ondoubleclicked=None
     ondoubleclickcountdown=None
-    countdownperiodms = 500
-    dblclickcountdownfrom = 1
+    countdownperiodms:int = 500
+    dblclickcountdownfrom: int = 1
+    startdelay: int=200
+    repeatdelay:int =100
+    countdownvalue: int = 0
     
     pin: Pin=None
     def __init__(self, pin: Pin, onclicked, ondoubleclicked, ondoubleclickcountdown, countdownperiodms: int, dblclickcountdownfrom: int):
